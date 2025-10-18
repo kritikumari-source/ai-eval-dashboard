@@ -6,7 +6,9 @@ import { supabase } from "../../../lib/supabaseClient";
 
 export default function EvalDetailPage() {
   const { id } = useParams();
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [evalData, setEvalData] = useState<any>(null);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [settings, setSettings] = useState<any>(null);
 
   useEffect(() => {

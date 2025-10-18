@@ -2,8 +2,7 @@ import { LineChart, Line, XAxis, YAxis, Tooltip, CartesianGrid } from "recharts"
 // import fetchEvals from "../evals/page"; 
 import Page from "../page";
 
-
-
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export default function Dashboard({data}: any) {
     console.log(data);
   return (

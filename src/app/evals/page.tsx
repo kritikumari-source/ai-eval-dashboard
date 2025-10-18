@@ -5,6 +5,7 @@ import { supabase } from "../../lib/supabaseClient";
 
 
 export default function EvalsPage() {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [evals, setEvals] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
 
